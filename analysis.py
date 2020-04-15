@@ -38,3 +38,18 @@ plt.savefig("Petal_width.png") # saving the graph
 
 petal_length = df["petal_width"]
 petal_length.describe().to_string("Summary_petal_width.txt", index = False, header = False)
+
+plt.clf()
+
+# Specifications for sepal_length variable:
+
+plt.hist(df["sepal_length"]) # creating histogram
+plt.title("Sepal_length") # adding title 
+plt.savefig("sepal_length.png") # saving the graph
+
+
+# creating a text file and saving a summary  of sepal_length variable using
+#  describe() command to the same text file.
+
+sepal_length = df["sepal_length"]
+sepal_length.describe().to_string("Summary_sepal_length.txt", index = False, header = False)
