@@ -23,7 +23,7 @@ plt.savefig("Petal_length.png") # saving the graph
 #  describe() command to the same text file.
 
 petal_length = df["petal_length"]
-petal_length.describe().to_string("Summary_petal_length.txt", index = False, header = False)
+petal_length.describe().to_string("Summary_petal_length.txt", index = True, header = True)
 
 plt.clf()
 
@@ -37,7 +37,7 @@ plt.savefig("Petal_width.png") # saving the graph
 #  describe() command to the same text file.
 
 petal_length = df["petal_width"]
-petal_length.describe().to_string("Summary_petal_width.txt", index = False, header = False)
+petal_length.describe().to_string("Summary_petal_width.txt", index = True, header = True)
 
 plt.clf()
 
@@ -45,11 +45,30 @@ plt.clf()
 
 plt.hist(df["sepal_length"]) # creating histogram
 plt.title("Sepal_length") # adding title 
-plt.savefig("sepal_length.png") # saving the graph
+plt.savefig("Sepal_length.png") # saving the graph
 
 
 # creating a text file and saving a summary  of sepal_length variable using
 #  describe() command to the same text file.
 
 sepal_length = df["sepal_length"]
-sepal_length.describe().to_string("Summary_sepal_length.txt", index = False, header = False)
+sepal_length.describe().to_string("Summary_sepal_length.txt", index = True, header = True)
+
+plt.clf()
+
+# Specifications for sepal_width variable:
+
+plt.hist(df["sepal_width"]) # creating histogram
+plt.title("Sepal_width") # adding title 
+plt.savefig("Sepal_width.png") # saving the graph
+
+
+# creating a text file and saving a summary  of sepal_length variable using
+#  describe() command to the same text file.
+
+sepal_length = df["sepal_width"]
+sepal_length.describe().to_string("Summary_sepal_width.txt", index = True, header = True)
+
+plt.clf()
+
+
