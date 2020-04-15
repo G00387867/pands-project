@@ -63,12 +63,26 @@ plt.title("Sepal_width") # adding title
 plt.savefig("Sepal_width.png") # saving the graph
 
 
-# creating a text file and saving a summary  of sepal_length variable using
+# creating a text file and saving a summary  of sepal_width variable using
 #  describe() command to the same text file.
 
-sepal_length = df["sepal_width"]
-sepal_length.describe().to_string("Summary_sepal_width.txt", index = True, header = True)
+sepal_width = df["sepal_width"]
+sepal_width.describe().to_string("Summary_sepal_width.txt", index = True, header = True)
 
 plt.clf()
 
 
+# Specifications for type variable:
+
+plt.hist(df["type"]) # creating histogram
+plt.title("type") # adding title 
+plt.savefig("type.png") # saving the graph
+
+
+# creating a text file and saving a summary  of type variable using
+#  describe() command to the same text file.
+
+type = df["type"]
+type.describe().to_string("Summary_type.txt", index = True, header = True)
+
+plt.clf()

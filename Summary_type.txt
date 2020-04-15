@@ -1,0 +1,4 @@
+count                150
+unique                 3
+top       Iris-virginica
+freq                  50
