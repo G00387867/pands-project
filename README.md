@@ -10,7 +10,10 @@ The aim fir this project is to
 
 ### _Methodology_
 
-
+* Downloading iris data set from http://archive.ics.uci.edu/ml/datasets/iris and saving it to this repository [2]
+* Assigning columns to raw data with each variable attribute: petal length, petal width, sepal length, sepal width and type.
+* Analysing the data by creating a histogram of each variable and text file summary of the statistical specification of the variable.
+* Using seaborn library to create a plot showing the corelation between the different variable categories.
 
 
 
@@ -26,3 +29,4 @@ The aim fir this project is to
 ### *[References]*
 
 [1] Wikipedia: https://en.wikipedia.org/wiki/Iris_flower_data_set
+[2] http://archive.ics.uci.edu/ml/datasets/iris
