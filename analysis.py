@@ -86,3 +86,11 @@ type = df["type"]
 type.describe().to_string("Summary_type.txt", index = True, header = True)
 
 plt.clf()
+
+import seaborn as sns
+
+sns.pairplot(df, hue = "type", palette = "cubehelix",  markers = ["+", "s", "H"])
+
+# how to save to file in seaborn https://stackoverflow.com/questions/32244753/how-to-save-a-seaborn-plot-into-a-file
+plt.savefig("Comparison.png")
+plt.clf()
