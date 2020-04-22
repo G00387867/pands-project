@@ -36,7 +36,7 @@ plt.savefig("Petal_width.png") # saving the graph
 # creating a text file and saving a summary  of petal_width variable using
 #  describe() command to the same text file.
 
-petal_length = df["petal_width"]
+petal_width = df["petal_width"]
 petal_length.describe().to_string("Summary_petal_width.txt", index = True, header = True)
 
 plt.clf()
@@ -87,9 +87,11 @@ type.describe().to_string("Summary_type.txt", index = True, header = True)
 
 plt.clf()
 
+# creating a scatter plot for each pair of variables by using pairplot function from seaborn library
+# In order to investigate in pairs I have refereed to following analysis: https://github.com/RitRa/Project2018-iris/blob/master/Project%2B2018%2B-%2BFishers%2BIris%2Bdata%2Bset%2Banalysis.ipynb
 import seaborn as sns
 
-sns.pairplot(df, hue = "type", palette = "cubehelix",  markers = ["+", "s", "H"])
+sns.pairplot(df, hue = "Type", palette = "cubehelix",  markers = ["+", "s", "H"])
 
 # how to save to file in seaborn https://stackoverflow.com/questions/32244753/how-to-save-a-seaborn-plot-into-a-file
 plt.savefig("Comparison.png")
