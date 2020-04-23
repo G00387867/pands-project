@@ -12,11 +12,18 @@ The aim for this project is to analyse the Fisher's Iris flower dataset using py
 
 * Downloading iris data set from http://archive.ics.uci.edu/ml/datasets/iris and saving it to this repository [2]
 * Assigning columns to raw data with each variable attribute: petal length, petal width, sepal length, sepal width and type.
+* showing a summary of the dataset by highlighting main data points
 * Analysing the data by creating a histogram of each variable and text file summary of the statistical specification of the variable.
-* Using seaborn library to create a plot showing the corelation between the different variable categories.
+* Creating a plot showing the corelation between the different variable categories.
 
 
+### _Analysis_
 
+                *count*    *mean*       *std*     *min*   *25%*    *50%*   *75%*   *max*
+*sepal_length*  150.0      5.843333     0.828066  4.3     5.1      5.80    6.4     7.9
+*sepal_width*   150.0      3.054000     0.433594  2.0     2.8      3.00    3.3     4.4
+*petal_length*  150.0      3.758667     1.764420  1.0     1.6      4.35    5.1     6.9
+*petal_width*   150.0      1.198667     0.763161  0.1     0.3      1.30    1.8     2.5
 
 
 
@@ -31,3 +38,5 @@ The aim for this project is to analyse the Fisher's Iris flower dataset using py
 [1] Wikipedia: https://en.wikipedia.org/wiki/Iris_flower_data_set
 
 [2] http://archive.ics.uci.edu/ml/datasets/iris
+
+[3] https://github.com/RitRa/Project2018-iris 
