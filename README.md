@@ -27,4 +27,3 @@ The aim for this project is to analyse the Fisher's Iris flower dataset using py
 
 [2] http://archive.ics.uci.edu/ml/datasets/iris
 
-[3] https://github.com/RitRa/Project2018-iris 
