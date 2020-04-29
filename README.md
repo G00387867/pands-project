@@ -1,5 +1,5 @@
 
-#  Fisher’s Iris dataset
+## Fisher’s Iris dataset
 ![Iris Flower, source:https://thegoodpython.com/iris-dataset/](https://github.com/G00387867/pands-project/blob/master/iris_snipp_it.PNG "Iris Flower, source:https://thegoodpython.com/iris-dataset/")
 
 ### _Introduction_
@@ -11,7 +11,7 @@ The aim for this project is to analyse the Fisher's Iris flower dataset using py
 
 ### _Methodology_
 
-* Downloading iris data set from http://archive.ics.uci.edu/ml/datasets/iris and saving it to this repository [2]
+* Downloading iris data set from (http://archive.ics.uci.edu/ml/datasets/iris) and saving it to this repository [2]
 * Assigning columns to raw data with each variable attribute: petal length, petal width, sepal length, sepal width and type.
 * showing a summary of the dataset by highlighting main data points
 * Analysing the data by creating a histogram of each variable and text file summary of the statistical specification of the variable.
