@@ -58,13 +58,13 @@ The code **`analysis.py`** is written using *python* version 3.8, as a higher le
 
 **Libraries** used in writing the code are:
 
-__Numpy__
+_Numpy_
 
-__Pandas__
+_Pandas_
 
-__Matplotlib__
+_Matplotlib_
 
-__Seaborn__
+_Seaborn_
 
 
 #### **How to run the code**
@@ -83,15 +83,15 @@ _Anaconda_
 
 2. Choose to clone/download the repository and copy the link (make sure you copy the link statrts with https and not the SSH)
 
-3. In the start menu search for cmd
+3. In the start menu search for `cmd`
 
 4. initiate terminal where the code can be executed 
 
 5. Navigate to the folder where the code needs to be executed
 
-6. type **"git clone (link of the repository)"**
+6. type `"$ git clone (link of the repository)"`
 
-7. Type `analysis.py` and press Enter
+7. Type `$ analysis.py` and press Enter
 
 8. YAY!
 
@@ -99,7 +99,7 @@ _Anaconda_
 
 
 
-
+----------------------------------------------------------------------------------------------
 
 
 
