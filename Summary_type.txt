@@ -1,4 +1,4 @@
-count                 150
-unique                  3
-top       Iris-versicolor
-freq                   50
+count             150
+unique              3
+top       Iris-setosa
+freq               50

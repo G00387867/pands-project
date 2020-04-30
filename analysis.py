@@ -1,5 +1,6 @@
 # Adam Shaat
-# A program to analyse the Fisher's Iris flower datasets.
+# A program to analyse the Fisher's Iris flower datasets
+
 
 import numpy as np # importing numpy
 import pandas as pd # importing pandas library
@@ -18,13 +19,16 @@ df = pd.read_csv("https://raw.githubusercontent.com/G00387867/pands-project/mast
 # https://github.com/RitRa/Project2018-iris
 # analysing the dataset's main datapoints
 
-summary = df.describe()
+summary = df.describe() #showing summary of the data set
 summary = summary.transpose()
 summary = summary.head()
 
 # Specifications for petal_length variable:
 
-plt.hist(df["petal_length"]) # creating histogram
+plt.hist(df["petal_length"], label = "iris setosa, iris versicolor and iris virginica, count = 150", color ='r') # creating histogram
+plt.legend() # adding legend
+plt.xlabel("size in cm") # defining x-axis
+plt.ylabel("count") # defining y-axis
 plt.title("Petal_length") # adding title 
 plt.savefig("Petal_length.png") # saving the graphs
 plt.clf()
@@ -39,7 +43,10 @@ petal_length.describe().to_string("Summary_petal_length.txt", index = True, head
 # Specifications for petal_width variable:
 
 
-plt.hist(df["petal_width"]) # creating histogram
+plt.hist(df["petal_width"], label = "iris setosa, iris versicolor and iris virginica, count = 150", color ='g') # creating histogram
+plt.legend() # adding legend
+plt.xlabel("size in cm") # defining x-axis
+plt.ylabel("count") # defining y-axis
 plt.title("Petal_width") # adding title 
 plt.savefig("Petal_width.png") # saving the graph
 plt.clf()
@@ -54,7 +61,10 @@ petal_width.describe().to_string("Summary_petal_width.txt", index = True, header
 # Specifications for sepal_length variable:
 
 
-plt.hist(df["sepal_length"]) # creating histogram
+plt.hist(df["sepal_length"], label = "iris setosa, iris versicolor and iris virginica, count = 150", color ='b') # creating histogram
+plt.legend() # adding legend
+plt.xlabel("size in cm") # defining x-axis
+plt.ylabel("count") # defining y-axis
 plt.title("Sepal_length") # adding title 
 plt.savefig("Sepal_length.png") # saving the graph
 plt.clf()
@@ -69,7 +79,10 @@ sepal_length.describe().to_string("Summary_sepal_length.txt", index = True, head
 # Specifications for sepal_width variable:
 
 
-plt.hist(df["sepal_width"]) # creating histogram
+plt.hist(df["sepal_width"], label = "iris setosa, iris versicolor and iris virginica, count = 150", color ='m') # creating histogram
+plt.legend() # adding legend
+plt.xlabel("size in cm") # defining x-axis
+plt.ylabel("count") # defining y-axis
 plt.title("Sepal_width") # adding title 
 plt.savefig("Sepal_width.png") # saving the graph
 plt.clf()
@@ -83,7 +96,10 @@ sepal_width.describe().to_string("Summary_sepal_width.txt", index = True, header
 
 # Specifications for Type variable:
 
-plt.hist(df["Type"]) # creating histogram
+plt.hist(df["Type"], label = "iris setosa, iris versicolor and iris virginica, count = 150", color ='y') # creating histogram
+plt.legend() # adding legend
+plt.xlabel("size in cm") # defining x-axis
+plt.ylabel("count") # defining y-axis
 plt.title("Type") # adding title 
 plt.savefig("Type.png") # saving the graph
 plt.clf()
@@ -95,11 +111,11 @@ Type = df["Type"]
 Type.describe().to_string("Summary_type.txt", index = True, header = True)
 
 
-# creating a scatter plot for each pair of variables by using pairplot function from seaborn library
+# creating a pairplot for each pair of variables by using pairplot function from seaborn library
 # In order to investigate in pairs I have refereed to following analysis: https://github.com/RitRa/Project2018-iris/blob/master/Project%2B2018%2B-%2BFishers%2BIris%2Bdata%2Bset%2Banalysis.ipynb
 
 sns.pairplot(df, hue = "Type", palette = "cubehelix",  markers = ["+", "s", "H"])
-plt.savefig("Pair_Scatter.png")
+plt.savefig("Pairplot.png")
 plt.clf()
 
 
