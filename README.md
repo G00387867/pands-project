@@ -76,9 +76,9 @@ libraries used in writing the code are:
 
 [2] The data set: http://archive.ics.uci.edu/ml/datasets/iris
 
-[3] https://www.learnbay.co/data-science-course/blog-post/exploratory-data-analysis-on-iris-dataset/
+[3] Learnbay: https://www.learnbay.co/data-science-course/blog-post/exploratory-data-analysis-on-iris-dataset/
 
-[4] https://pythonbasics.org/seaborn-pairplot/
+[4] Pythonbasics: https://pythonbasics.org/seaborn-pairplot/
 
 [5] Pandas: https://pandas.pydata.org/docs/
 
@@ -93,3 +93,12 @@ libraries used in writing the code are:
 [10] Kaggle: https://www.kaggle.com/noelano/seaborn-visualization-on-iris-data-set
 
 [11] Scikit-learn: https://scikit-learn.org/stable/auto_examples/datasets/plot_iris_dataset.html
+
+[12] Other Reference: https://github.com/mwaskom/seaborn/issues/1114
+
+[13] other reference: https://medium.com/@avulurivenkatasaireddy/exploratory-data-analysis-of-iris-data-set-using-python-823e54110d2d
+
+[14] other reference: https://thegoodpython.com/iris-dataset/
+
+[15] Github: https://guides.github.com/features/mastering-markdown/
+
