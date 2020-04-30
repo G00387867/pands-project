@@ -93,7 +93,7 @@ _Anaconda_
 
 6. Insert `$ git clone (link of the repository)`
 
-7. Insert `$ analysis.py` 
+7. Insert `$ python analysis.py` 
 
 8. YAY!
 
