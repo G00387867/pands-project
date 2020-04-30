@@ -1,6 +1,6 @@
 
 ## Fisher’s Iris data set
-![Iris Flower, source:https://thegoodpython.com/iris-dataset/](https://github.com/G00387867/pands-project/blob/master/iris_snipp_it.PNG "Iris Flower, source:https://thegoodpython.com/iris-dataset/")
+![Iris Flower, source: https://thegoodpython.com/iris-dataset/](https://github.com/G00387867/pands-project/blob/master/iris_snipp_it.PNG "Iris Flower, source: https://thegoodpython.com/iris-dataset/")
 
 ### _Introduction_
 
@@ -50,13 +50,13 @@ The aim for this project is to analyse the Fisher's Iris flower data set using p
 
 ### Configuration and tooling
 
-The code **`analysis.py`** is written using *python* as a higher level scripting language, the code is supposed to do the following:
+The code **`analysis.py`** is written using *python* version 3.8, as a higher level scripting language, the code is supposed to do the following:
 >* Outputs and saves a summary of each variable of iris flower to a single text file 
 >* Creates and saves a histogram of each variable as png file
 >* creates and saves a scatter plot of each pair of variables
 >* creates and saves a scatter plot of the variables that determine the type of the flower, ie; sepal length vs sepalwidth, and petal length vs petal width.
 
-libraries used in writing the code are:
+**Libraries** used in writing the code are:
 
 *__Numpy__* 
 
@@ -65,6 +65,35 @@ libraries used in writing the code are:
 *__Matplotlib__*
 
 *__Seaborn__*
+
+
+####**How to run the code**
+
+
+- **Install**
+
+>_Python 3.8_
+
+> _Anaconda_
+
+- **Then:**
+
+
+1. Navigate to the code [analysis.py](https://github.com/G00387867/pands-project/blob/master/analysis.py) in the repository
+
+2. Choose to clone/download the repository and copy the link (make sure you copy the link statrts with https and not the SSH)
+
+3. In the start menu search for cmd
+
+4. initiate terminal where the code can be executed 
+
+5. Navigate to the folder where the code needs to be executed
+
+6. type **"git clone (link of the repository)"**
+
+7. Type `analysis.py` 
+
+
 
 
 
@@ -100,5 +129,7 @@ libraries used in writing the code are:
 
 [14] other reference: https://thegoodpython.com/iris-dataset/
 
-[15] Github: https://guides.github.com/features/mastering-markdown/
+[15] other reference: https://github.com/RitRa/Project2018-iris
+
+[16] Github: https://guides.github.com/features/mastering-markdown/
 
