@@ -51,10 +51,10 @@ The aim for this project is to analyse the Fisher's Iris flower data set using p
 ### Configuration and tooling
 
 The code **`analysis.py`** is written using *python* version 3.8, as a higher level scripting language, the code is supposed to do the following:
->* Outputs and saves a summary of each variable of iris flower to a single text file 
->* Creates and saves a histogram of each variable as png file
->* creates and saves a scatter plot of each pair of variables
->* creates and saves a scatter plot of the variables that determine the type of the flower, ie; sepal length vs sepalwidth, and petal length vs petal width.
+>* Outputs and saves a summary of each variable of iris flower to a single text file;
+>* Creates and saves a histogram of each variable as png file;
+>* Creates and saves a scatter plot of each pair of variables;
+>* Creates and saves a scatter plot of the variables that determine the type of the flower, ie; sepal length vs sepalwidth, and petal length vs petal width.
 
 **Libraries** used in writing the code are:
 
