@@ -89,9 +89,9 @@ _Anaconda_
 
 5. Navigate to the folder where the code needs to be executed
 
-6. type `"$ git clone (link of the repository)"`
+6. Insert `$ git clone (link of the repository)`
 
-7. Type `$ analysis.py` and press Enter
+7. Insert `$ analysis.py` 
 
 8. YAY!
 
