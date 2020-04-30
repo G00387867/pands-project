@@ -58,25 +58,25 @@ The code **`analysis.py`** is written using *python* version 3.8, as a higher le
 
 **Libraries** used in writing the code are:
 
-*__Numpy__* 
+__Numpy__
 
-*__Pandas__*
+__Pandas__
 
-*__Matplotlib__*
+__Matplotlib__
 
-*__Seaborn__*
-
-
-####**How to run the code**
+__Seaborn__
 
 
-- **Install**
+#### **How to run the code**
 
->_Python 3.8_
 
-> _Anaconda_
+**Install:**
 
-- **Then:**
+_Python 3.8_
+
+_Anaconda_
+
+**Then:**
 
 
 1. Navigate to the code [analysis.py](https://github.com/G00387867/pands-project/blob/master/analysis.py) in the repository
@@ -91,7 +91,12 @@ The code **`analysis.py`** is written using *python* version 3.8, as a higher le
 
 6. type **"git clone (link of the repository)"**
 
-7. Type `analysis.py` 
+7. Type `analysis.py` and press Enter
+
+8. YAY!
+
+9. If you face any issues please contact me and I'd be happy to help!
+
 
 
 
