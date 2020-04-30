@@ -143,3 +143,5 @@ sns.FacetGrid(df,hue="Type",height=5).map(plt.scatter,"sepal_length","sepal_widt
 plt.suptitle("Sepal_Length vs Sepal_Width")
 plt.savefig("Sepal_Length_vs_Sepal_width.png")
 plt.clf()
+exit()
+
