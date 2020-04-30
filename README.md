@@ -14,8 +14,10 @@ The aim for this project is to analyse the Fisher's Iris flower data set using p
 * Downloading iris data set from (http://archive.ics.uci.edu/ml/datasets/iris) and saving it to this repository [2]
 * Assigning columns to raw data with each variable attribute: petal length, petal width, sepal length, sepal width and type
 * showing a summary of the dataset by highlighting main data points
-* Analysing the data by creating a histogram of each variable and text file summary of the statistical specification of the variable.
-* Creating a pair plot(s) showing the correlation between the different variable categories.
+* Analysing the data by creating a histogram of each variable and text file summary of the statistical specification of the variable
+* Creating a pair plot(s) showing the correlation between the different variable categories
+* Configuration and tooling to run the code in README file
+* A README file containing information and documentaion of the project including References.
 
 
 ### _Analysis_
