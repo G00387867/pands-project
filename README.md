@@ -38,7 +38,7 @@ The aim for this project is to analyse the Fisher's Iris flower data set using p
 
 >#### _Pairplot_ using SEABORN 
 
-![Pairplot](https://github.com/G00387867/pands-project/blob/master/Pair_Scatter.png "Pairplot")
+![Pairplot](hhttps://github.com/G00387867/pands-project/blob/master/Pairplot.png "Pairplot")
 
 >#### Petal Length vs Petal Width
 
