@@ -36,25 +36,60 @@ The aim for this project is to analyse the Fisher's Iris flower data set using p
 |petal_width |   150.0 | 1.198667 | 0.763161 | 0.1 | 0.3 | 1.30 | 1.8 | 2.5|
 --------------------------------
 
->#### _Pairplot_ using SEABORN 
+>#### _Pairplot_ using SEABORN
 
-![Pairplot](hhttps://github.com/G00387867/pands-project/blob/master/Pairplot.png "Pairplot")
+![Pairplot](https://github.com/G00387867/pands-project/blob/master/Pairplot.png "Pairplot")
 
 >#### Petal Length vs Petal Width
 
-![Petal length vs Petal width](https://github.com/G00387867/pands-project/blob/master/Petal_Length_vs_Petal_width.png "Petal length vs Petal width")
+![Petal Length vs Petal Width](https://github.com/G00387867/pands-project/blob/master/Petal_Length_vs_Petal_width.png "Petal length vs Petal width")
 
 >#### Sepal Length vs Sepal Width
 
 ![Sepal Length vs Sepal Width](https://github.com/G00387867/pands-project/blob/master/Sepal_Length_vs_Sepal_width.png "Sepal Length vs Sepal Width")
 
-### _[References]_
+### Configuration and tooling
 
+The code **`analysis.py`** is written using *python* as a higher level scripting language, the code is supposed to do the following:
+>* Outputs and saves a summary of each variable of iris flower to a single text file 
+>* Creates and saves a histogram of each variable as png file
+>* creates and saves a scatter plot of each pair of variables
+>* creates and saves a scatter plot of the variables that determine the type of the flower, ie; sepal length vs sepalwidth, and petal length vs petal width.
+
+libraries used in writing the code are:
+
+*__Numpy__* 
+
+*__Pandas__*
+
+*__Matplotlib__*
+
+*__Seaborn__*
+
+
+
+
+
+### _[References]_
+ 
 [1] Wikipedia: https://en.wikipedia.org/wiki/Iris_flower_data_set
 
-[2] http://archive.ics.uci.edu/ml/datasets/iris
+[2] The data set: http://archive.ics.uci.edu/ml/datasets/iris
 
 [3] https://www.learnbay.co/data-science-course/blog-post/exploratory-data-analysis-on-iris-dataset/
 
 [4] https://pythonbasics.org/seaborn-pairplot/
 
+[5] Pandas: https://pandas.pydata.org/docs/
+
+[6] Numpy: https://numpy.org/
+
+[7] Matplotlib: https://matplotlib.org/tutorials/introductory/pyplot.html
+
+[8] Real Python: https://realpython.com/python-matplotlib-guide/
+
+[9] Seaborn: https://python-graph-gallery.com/seaborn/
+
+[10] Kaggle: https://www.kaggle.com/noelano/seaborn-visualization-on-iris-data-set
+
+[11] Scikit-learn: https://scikit-learn.org/stable/auto_examples/datasets/plot_iris_dataset.html
